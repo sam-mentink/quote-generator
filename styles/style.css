@@ -1,23 +1,32 @@
+body {
+    background-color: black;
+}
+
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
+    width: 600px;
+    height: 350px;
+    background-image: url('giphy.gif');
+    background-position: center;
     margin: auto;
+    margin-top: 125px;
     flex-direction: column;
     text-align: center;
 }
 
 .flex-item {
-    background-color: cornflowerblue;
-    width: 300px;
+    background-color: black;
+    font-color: white;
+    width: 600px;
     height: 125px;
     margin: auto;
+    margin-bottom: 110px;
 }
 
 .h1{
-
+    color: white;
 }
 
 .button {
