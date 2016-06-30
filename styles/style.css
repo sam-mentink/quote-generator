@@ -4,41 +4,43 @@ body {
 
 
 .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 600px;
-    height: 350px;
-    background-image: url('giphy.gif');
-    background-position: center;
-    margin: auto;
-    margin-top: 125px;
-    flex-direction: column;
-    text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  width: 40%;
+  height: 40%;
+  background-image: url('patterns.gif');
+  background-position: center;
+  margin: 15% auto auto auto;
+  flex-direction: column;
+  text-align: center;
 }
 
 .flex-item {
-    background-color: black;
-    font-color: white;
-    width: 600px;
-    height: 125px;
-    margin: auto;
-    margin-bottom: 110px;
+  background-color: black;
+  opacity: 0.85;
+  width: 60%;
+  height: 40%;
+  margin: 5% auto 5% auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.h1{
-    color: white;
+#generator {
+  background-color: black;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 0%;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    align: center
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 3% auto 10% auto;
+  font-size: 0.8em;
+  color: #fff;
 }
